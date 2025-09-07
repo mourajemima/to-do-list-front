@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://to-do-list-back-jxzd.onrender.com'
+    baseURL: import.meta.env.API_URL
 });
 
 export default api
